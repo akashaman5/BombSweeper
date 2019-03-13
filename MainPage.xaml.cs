@@ -26,7 +26,7 @@ namespace BombSweeper
         {
             Button button = sender as Button;
 
-            //game over 
+            //game over.
             if(button.Text == bomb)
             { 
                 await DisplayAlert("Bomb exploded", "GAME OVER", "Retry");
